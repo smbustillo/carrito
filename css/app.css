@@ -22,3 +22,30 @@
 .header .logo {
   padding: 1.4rem 0;
 }
+
+.carrito-compras {
+  position: relative;
+}
+
+.carrito-compras:hover .contenido {
+  display: block;
+  position: absolute;
+  right: 0;
+  background-color: #e1e1e1;
+  padding: 1rem;
+  max-width: 400px;
+}
+
+.carrito-compras:hover .contenido img {
+  max-width: 150px;
+}
+
+.carrito-compras:hover .contenido .boton {
+  background-color: #33c3f0;
+  padding: .5rem 1rem;
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
