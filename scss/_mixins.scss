@@ -1,0 +1,10 @@
+/* Botones*/
+@mixin boton($color) {
+    background-color:$color;
+    padding: .5rem 1rem;
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color: $blanco;
+    text-decoration: none;
+}

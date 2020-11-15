@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 
 body {
@@ -40,13 +41,11 @@ body {
         }
 
         .boton {
-            background-color:$principal;
-            padding: .5rem 1rem;
-            display: block;
-            margin-top: 1rem;
-            text-align: center;
-            color: $blanco;
-            text-decoration: none;
+            @include boton($principal);
         }
     }
+}
+
+input[type="submit"]{
+    @include boton($secundario);
 }
