@@ -18,5 +18,11 @@ function css(){
 
 }
 
+function watchFiles() {
+    gulp.watch('scss/*.scss',css);
+    gulp.watch('index.html');
+}
+
 //Registrar funcion como tarea
 gulp.task('css',css);
+gulp.task('watch',gulp.parallel(watchFiles));
