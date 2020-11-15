@@ -1,9 +1,9 @@
-//variables
+@import 'variables';
 
-//colores
-$principal : #33c3f0;
-$blanco : #ffffff;
-$gris : #e1e1e1;
+
+body {
+    font-family: $fuente_principal;
+}
 
 .contenedor {
     max-width: 1100px;
