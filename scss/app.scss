@@ -2,6 +2,16 @@
 @import 'mixins';
 
 
+html {
+    @include box-sizing(border-box);
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
 body {
     font-family: $fuente_principal;
 }
